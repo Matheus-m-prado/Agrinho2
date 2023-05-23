@@ -1,34 +1,28 @@
-function menuShow() {
-    let menuMobile = document.querySelector('.mobile-menu');
-    if (menuMobile.classList.contains('open')) {
-        menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "assets/img/menu_white_36dp.svg";
-    } else {
-        menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "assets/img/close_white_36dp.svg";
-    }
+const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(event) {
+  if (event.type === 'touchstart') event.preventDefault();
+  const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+  const active = nav.classList.contains('active');
+  event.currentTarget.setAttribute('aria-expanded', active);
+  if (active) {
+    event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
+  } else {
+    event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
+  }
 }
 
-
-
-// Parallax
-let text = document.getElementById('text');
-let leaf = document.getElementById('leaf');
-let hill1 = document.getElementById('hill1');
-let hill4 = document.getElementById('hill4');
-let hill5 = document.getElementById('hill5');
-
-window.addEventListener('scroll', () => {
-    let value = window.scrollY;
-
-    text.style.marginTop = value * 2.5 + 'px';
-    leaf.style.top = value * -1.5 + 'px';
-    leaf.style.left = value * 1.5 + 'px';
-    hill5.style.left = value * .5 + 'px';
-    hill4.style.left = value * -1.5 + 'px';
-    hill1.style.top = value * 1.5 + 'px';
-});
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
 
 
 
 
+
+// Scroll
+window.sr = ScrollReveal({ reset: false });
+sr.reveal(".scroll", {duration: 1800, distance: '70px', origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
+sr.reveal(".scroll2", {duration: 1800, distance: '70px', origin: 'top', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
+sr.reveal(".scroll3", {duration: 1800, distance: '70px', origin: 'left', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
+sr.reveal(".scroll4", {duration: 1800, distance: '70px', origin: 'right', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
