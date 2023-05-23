@@ -243,8 +243,11 @@ p{
 @media(orientation: portrait){
     .banner{
         height: 95vh;
-        top: -20vw;
+        top: -22vw;
         margin-bottom: -22vw;
+    }
+    #main h1{
+        margin-top: 30vh;
     }
     .layer-1{
         bottom: 9vw;
