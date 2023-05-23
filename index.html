@@ -1,38 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="assets/img/planeta.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/planeta.png"
+      type="image/x-icon"
+    />
     <title>Agrinho</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <header id="header">
-        <a id="logo" href="index.html"><img src="assets/img/planeta.png" alt="planeta"></a>
-        <nav id="nav">
-          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-            <span id="hamburger"></span>
-          </button>
-          <ul id="menu" role="menu">
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-          </ul>
-        </nav>
-      </header>
+      <a id="logo" href="index.html"
+        ><img src="assets/img/planeta.png" alt="planeta"
+      /></a>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <main id="main">
+      <div class="banner">
+        <img src="assets/img/bg.png" alt="" class="layer-1" />
+        <img src="assets/img/meteor.png" alt="" class="layer-2" />
 
-    <main>
+        <div class="layer-3">
+          <h1>Transformando o mundo<br /><span>através da empatia</span></h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas libero
+            odio aut suscipit impedit! Itaque magni consequuntur ut, magnam ea
+            sed beatae! Earum eius, id corrupti ratione quam corporis dolorum!
+          </p>
+        </div>
+        <img src="assets/img/4.png" alt="" class="layer-4" />
+        <img src="assets/img/5.png" alt="" class="layer-5" />
+        <img src="assets/img/6.png" alt="" class="layer-6" />
+      </div>
 
-
-
+      <div class="content">
+        <h1>Parallax Effect</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem natus
+          voluptates exercitationem dolores facilis animi, ipsam fuga debitis
+          necessitatibus rerum, adipisci ex sunt cum ipsa saepe optio repellat
+          similique molestiae, vitae tempore aliquam nulla? Consectetur
+          possimus, aliquam numquam asperiores facilis esse id veniam officiis
+          a. Deleniti nesciunt vel cum enim ipsum? Natus praesentium nisi
+          aperiam corrupti iusto, maiores, est pariatur sunt tempora esse odio
+          quos incidunt vitae enim veniam, perferendis saepe molestiae ab rem
+          qui! Recusandae sint possimus commodi non delectus, quasi cumque
+          molestiae perferendis doloremque animi reprehenderit, nihil tempora
+          eum ab vitae amet minima odio natus. Cupiditate, officiis consequatur?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sit
+          nam voluptatum impedit saepe consequatur rem voluptas voluptatibus
+          harum architecto magni error debitis minus deserunt blanditiis soluta
+          distinctio at, illum hic ad eius, quaerat dolorum veniam animi. Quos
+          excepturi ipsum velit fugiat id sit quo sequi ullam reprehenderit?
+          Consequuntur numquam porro tempore nam libero? Vero aperiam ad, velit
+          eius similique, exercitationem earum quidem magnam voluptatem
+          explicabo iste placeat qui reprehenderit tempora. Ullam, commodi. Nemo
+          cupiditate quibusdam tempora earum, corporis dolores.
+        </p>
+      </div>
     </main>
 
-
     <script src="assets/script.js"></script>
-</body>
+    <script>
+      let layer_1 = document.querySelector(".layer-1");
+      let layer_2 = document.querySelector(".layer-2");
+      let layer_3 = document.querySelector(".layer-3");
+      let layer_4 = document.querySelector(".layer-4");
+      let layer_5 = document.querySelector(".layer-5");
+
+      window.onscroll = function () {
+        let Y = window.scrollY;
+
+        layer_1.style.transform = "translateY(" + Y / 1.5 + "px)";
+        layer_2.style.transform = "translateY(" + Y / 2 + "px)";
+        layer_3.style.transform = "translateY(" + Y / 1.5 + "px)";
+        layer_4.style.transform = "translateY(" + Y / 2 + "px)";
+        layer_5.style.transform = "translateY(" + Y / 3 + "px)";
+      };
+    </script>
+  </body>
 </html>
