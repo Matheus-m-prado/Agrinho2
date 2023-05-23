@@ -88,7 +88,7 @@ body {
     display: flex;
     justify-content: center;
 }
-img{
+#main img{
     position: absolute;
     bottom: 0;
 }
