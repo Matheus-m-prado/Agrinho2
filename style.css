@@ -122,6 +122,9 @@ p{
 .layer-3 h1{
     margin-top: 80px;
 }
+.layer-3 h1 span{
+    color: #2dc471;
+}
 .layer-3 p{
     max-width: 550px;
     text-indent: 0;
