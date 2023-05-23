@@ -91,10 +91,12 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
+    background-color: #51419cff;
 }
 #main img{
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 .content{
     background-color: #1d1d4f;
@@ -130,7 +132,8 @@ p{
     color: #2dc471;
 }
 .layer-3 p{
-    max-width: 550px;
+    width: 550px;
+    max-width: 76vw;
     text-indent: 0;
     text-align: center;
     font-size: 14px;
@@ -232,4 +235,19 @@ p{
     max-width: 15vw;
     margin-top: 8px;
   }
+}
+
+@media(orientation: portrait){
+    .banner{
+        height: 95vh;
+    }
+    .layer-1{
+        bottom: 9vw;
+    }
+    .layer-4{
+        bottom: 6vw;
+    }
+    .layer-5{
+        bottom: 3vw;
+    }
 }
