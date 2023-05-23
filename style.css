@@ -91,7 +91,7 @@ body {
     position: relative;
     display: flex;
     justify-content: center;
-    background-color: #51419cff;
+    background-color: #514c9c;
 }
 #main img{
     position: absolute;
@@ -102,6 +102,7 @@ body {
     background-color: #1d1d4f;
     padding: 60px;
     position: relative;
+    padding: 20px;
 }
 h1{
     text-align: center;
@@ -240,6 +241,8 @@ p{
 @media(orientation: portrait){
     .banner{
         height: 95vh;
+        top: -20vw;
+        margin-bottom: -22vw;
     }
     .layer-1{
         bottom: 9vw;
@@ -249,5 +252,8 @@ p{
     }
     .layer-5{
         bottom: 3vw;
+    }
+    .layer-3 h1{
+        margin-top: 150px;
     }
 }
