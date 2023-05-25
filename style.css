@@ -10,6 +10,7 @@ body{
     min-height: 100vh;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    height: 1000vh;
 }
 
 #logo {
@@ -23,8 +24,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #f8f8f8;
-    background-color: rgba(0, 0, 0, 0.12);
+    background: #b8ece4;
   
     z-index: 999;
     position: sticky;
@@ -65,7 +65,6 @@ body{
     align-items: center;
     height: 90vh;
     background-color: #b8ece4;
-    margin-top: -6vw;
 }
 
 #text{
@@ -80,6 +79,23 @@ body{
     color: #15f87b;
 }
 
+a#button1{
+  z-index: 1;
+  margin-bottom: -100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+a#button1 button{
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #15f87b;
+  font-size: 1em;
+  font-weight: 600;
+  color: #303030;
+  cursor: pointer;
+}
+
 #leaf{
   top: 0;
 }
@@ -92,27 +108,33 @@ body{
     pointer-events: none; 
 } */
 
+#plant{
+  z-index: 100;
+}
+
 .parallax img{
     position: absolute;
     bottom: 0;
     width: 100%;
 }
 
-.sec{
+#start{
+    z-index: 100;
     position: relative;
     background: #003329;
-    padding: 100px;
+    padding: 50px 200px;
+    text-align: center;
 }
 
-.sec h2{
+#start h2{
     font-size: 3em;
     color: #fff;
     margin-bottom: 10px;
 }
 
-.sec p{
+#start p{
     font-size: 1em;
-    color: #fff;
+    color: #cacaca;
     font-weight: 300;
 }
 
@@ -201,11 +223,15 @@ body{
 
 
 
-    .parallax{
-      margin-top: -18vw;
-    }
+    /* .parallax{
+       margin-top: -18vw; 
+    } */
     #text{
       font-size: 2em;
       padding: 20vw;
+      margin-bottom: 150px;
+    }
+    #start{
+    padding: 50px;
     }
   }

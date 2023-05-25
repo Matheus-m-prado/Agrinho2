@@ -4,6 +4,7 @@ let tree = document.getElementById('tree');
 let hill1 = document.getElementById('hill1');
 let hill4 = document.getElementById('hill4');
 let hill5 = document.getElementById('hill5');
+let button1 = document.getElementById('button1');
 
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
@@ -15,7 +16,8 @@ window.addEventListener('scroll', () => {
     hill4.style.left = value * -.2 + 'px';
     // hill1.style.top = value * 1.2 + 'px';
     tree.style.left = value * .4 + 'px';
-})
+    button1.style.marginTop = value * 1.5 + 'px';
+});
 
 
 
