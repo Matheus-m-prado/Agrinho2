@@ -46,6 +46,8 @@ body{
     display: block;
     padding: 0.5rem;
     font-weight: bold;
+    text-decoration: none;
+    color: #252525;
   }
   
   #btn-mobile {
@@ -214,7 +216,8 @@ a#button1 button{
     }
   
     #menu {
-      background: #ebebebe7;
+    background: #b8ece4a2;
+
     }
     #logo img {
       max-width: 15vw;
