@@ -216,7 +216,7 @@ a#button1 button{
     }
   
     #menu {
-    background: #b8ece4a2;
+    background-image: linear-gradient(to bottom,#b8ece4a2, #b8ece4, #b8ece4);
 
     }
     #logo img {
