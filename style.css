@@ -10,7 +10,6 @@ body{
     min-height: 100vh;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
-    height: 1000vh;
 }
 
 #logo {
@@ -25,7 +24,6 @@ body{
     align-items: center;
     justify-content: space-between;
     background: #b8ece4;
-  
     z-index: 999;
     position: sticky;
     top: 0;
