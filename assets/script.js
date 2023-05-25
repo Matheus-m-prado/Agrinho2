@@ -1,3 +1,30 @@
+let text = document.getElementById('text');
+let leaf = document.getElementById('leaf');
+let tree = document.getElementById('tree');
+let hill1 = document.getElementById('hill1');
+let hill4 = document.getElementById('hill4');
+let hill5 = document.getElementById('hill5');
+
+window.addEventListener('scroll', () => {
+    let value = window.scrollY;
+
+    text.style.marginTop = value * 1 + 'px';
+    leaf.style.top = value * -0.5 + 'px';
+    leaf.style.left = value * .5 + 'px';
+    hill5.style.left = value * .6 + 'px';
+    hill4.style.left = value * -.2 + 'px';
+    // hill1.style.top = value * 1.2 + 'px';
+    tree.style.left = value * .4 + 'px';
+})
+
+
+
+
+
+
+
+
+
 const btnMobile = document.getElementById("btn-mobile");
 
 function toggleMenu(event) {
@@ -15,80 +42,3 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
-
-// Scroll
-window.sr = ScrollReveal({ reset: false });
-sr.reveal(".scroll", {
-  duration: 1800,
-  distance: "70px",
-  origin: "bottom",
-  easing: "cubic-bezier(0.5, 0, 0, 1)",
-  opacity: 0,
-});
-sr.reveal(".scroll2", {
-  duration: 1800,
-  distance: "70px",
-  origin: "top",
-  easing: "cubic-bezier(0.5, 0, 0, 1)",
-  opacity: 0,
-});
-sr.reveal(".scroll3", {
-  duration: 1800,
-  distance: "70px",
-  origin: "left",
-  easing: "cubic-bezier(0.5, 0, 0, 1)",
-  opacity: 0,
-});
-sr.reveal(".scroll4", {
-  duration: 1800,
-  distance: "70px",
-  origin: "right",
-  easing: "cubic-bezier(0.5, 0, 0, 1)",
-  opacity: 0,
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

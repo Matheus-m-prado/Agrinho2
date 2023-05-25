@@ -1,88 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="shortcut icon"
-      href="assets/img/planeta.png"
-      type="image/x-icon"
-    />
-    <title>Agrinho</title>
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Parallax</title>
+</head>
+<body>
+    
     <header id="header">
-      <a id="logo" href="index.html">
-      <img src="assets/img/planeta.png" alt="planeta"/></a>
-      <nav id="nav">
-        <button
-          aria-label="Abrir Menu"
-          id="btn-mobile"
-          aria-haspopup="true"
-          aria-controls="menu"
-          aria-expanded="false"
-        >
-          <span id="hamburger"></span>
-        </button>
-        <ul id="menu" role="menu">
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-        </ul>
-      </nav>
-    </header>
+        <a id="logo" href="index.html">
+        <img src="assets/img/planeta.png" alt="planeta"/></a>
+        <nav id="nav">
+          <button
+            aria-label="Abrir Menu"
+            id="btn-mobile"
+            aria-haspopup="true"
+            aria-controls="menu"
+            aria-expanded="false"
+          >
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <main id="main">
-      <div class="banner">
-        <img src="assets/img/bg.png" alt="" class="layer-1" />
-        <img src="assets/img/meteor.png" alt="" class="layer-2" />
+    <section class="parallax">
+        <img src="assets/img/hill1.png" id="hill1">
+        <img src="assets/img/hill2.png" id="hill2">
+        <img src="assets/img/hill3.png" id="hill3">
+        <img src="assets/img/hill4.png" id="hill4">
+        <img src="assets/img/hill5.png" id="hill5">
+        <img src="assets/img/tree.png" id="tree">
+        <h1 id="text">Transformando o mundo <br><span>através da empatia</span></h1>
+        <img src="assets/img/leaf.png" id="leaf">
+        <img src="assets/img/plant.png" id="plant">
+    </section>
 
-        <div class="layer-3">
-          <h1>Transformando o mundo<br /><span>através da empatia</span></h1>
-          <p>
-            Descubra como pequenos gestos podem gerar um impacto positivo na
-            sociedade e no planeta.
-          </p>
-          <a href="#teks">Get Started</a>
-        </div>
-        <img src="assets/img/4.png" alt="" class="layer-4" />
-        <img src="assets/img/5.png" alt="" class="layer-5" />
-        <img src="assets/img/6.png" alt="" class="layer-6" />
-      </div>
+    <section class="sec">
+        <h2>Parallax Scrollign website</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat minus, eaque asperiores eligendi nesciunt at tempore quasi id enim labore similique, quis officiis, porro maxime! Placeat hic impedit iusto itaque dolor quod! Corporis explicabo modi nobis, hic eum magni voluptates fugiat voluptate earum optio quam? Voluptate harum iusto molestiae soluta consequuntur obcaecati necessitatibus sint, beatae ratione nisi, maxime quis corporis. Quod et esse temporibus suscipit libero vero quidem distinctio. Qui recusandae quo, iste pariatur molestias provident nobis. Possimus iste quas error obcaecati impedit nesciunt et tenetur aperiam quaerat libero? Totam quod officia pariatur dolorum, fuga exercitationem vel, cupiditate numquam voluptate corrupti perspiciatis quae odio maxime, facilis sunt laboriosam assumenda sapiente ea nam repellendus maiores iste aliquam! Repudiandae, porro assumenda suscipit soluta odit ea culpa ipsam quos vel corporis placeat eius.</p>
+    </section>
 
-      <div class="content" id="teks">
-        <h1>Vamos fazer a diferença?</h1>
-        <p>
-          Você já parou para pensar em como suas ações podem fazer a diferença
-          no mundo? Cada escolha que você faz, por menor que seja, pode ter um
-          impacto poderoso e duradouro. Acreditamos no poder transformador das
-          ações individuais e queremos inspirar você a fazer parte dessa
-          mudança!
-        </p>
-      </div>
-
-    </main>
 
     <script src="assets/script.js"></script>
-    <script>
-      let layer_1 = document.querySelector(".layer-1");
-      let layer_2 = document.querySelector(".layer-2");
-      let layer_3 = document.querySelector(".layer-3");
-      let layer_4 = document.querySelector(".layer-4");
-      let layer_5 = document.querySelector(".layer-5");
-
-      window.onscroll = function () {
-        let Y = window.scrollY;
-
-        layer_1.style.transform = "translateY(" + Y / 1.5 + "px)";
-        layer_2.style.transform = "translateY(" + Y / 2 + "px)";
-        layer_3.style.transform = "translateY(" + Y / 1.5 + "px)";
-        layer_4.style.transform = "translateY(" + Y / 2 + "px)";
-        layer_5.style.transform = "translateY(" + Y / 3 + "px)";
-      };
-    </script>
-  </body>
+</body>
 </html>
