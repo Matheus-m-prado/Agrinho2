@@ -74,6 +74,7 @@ body{
     font-size: 3em;
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    transition: all .1s ease;
 }
 #text span{
     color: #15f87b;
@@ -84,7 +85,6 @@ a#button1{
   margin-bottom: -100px;
   cursor: pointer;
   text-decoration: none;
-  transition: all .5s ease;
 }
 a#button1 button{
   padding: 20px;
@@ -131,12 +131,16 @@ a#button1 button:hover{
     background: #003329;
     padding: 50px 200px;
     text-align: center;
+    margin-top: -10px;
 }
 
 #start h2{
     font-size: 3em;
     color: #fff;
     margin-bottom: 10px;
+}
+#start h2 span{
+  text-decoration: underline #15f87b;
 }
 
 #start p{

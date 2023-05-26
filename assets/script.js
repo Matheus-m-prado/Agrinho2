@@ -15,7 +15,8 @@ window.addEventListener('scroll', () => {
     hill5.style.left = value * .6 + 'px';
     hill4.style.left = value * -.2 + 'px';
     tree.style.left = value * .4 + 'px';
-})
+    button1.style.marginTop = value * 1 + 'px';
+});
 
 
 
