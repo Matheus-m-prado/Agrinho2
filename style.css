@@ -80,10 +80,11 @@ body{
 }
 
 a#button1{
-  z-index: 1;
+  z-index: 10000;
   margin-bottom: -100px;
   cursor: pointer;
   text-decoration: none;
+  transition: all .5s ease;
 }
 a#button1 button{
   padding: 20px;
@@ -94,6 +95,12 @@ a#button1 button{
   font-weight: 600;
   color: #303030;
   cursor: pointer;
+  box-shadow: 4px 4px 30px #000;
+  transition: all .5s ease;
+}
+a#button1 button:hover{
+  background-color: #12d369;
+  box-shadow: none;
 }
 
 #leaf{
