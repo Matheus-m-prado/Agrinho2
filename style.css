@@ -76,13 +76,14 @@ body{
     color: #fff;
     text-shadow: 2px 2px 4px rgba(0,0,0,.2);
     transition: all .1s ease;
+    z-index: 100;
 }
 #text span{
     color: #15f87b;
 }
 
 a#button1{
-  z-index: 1;
+  z-index: 101;
   margin-bottom: -100px;
   cursor: pointer;
   text-decoration: none;
@@ -106,6 +107,7 @@ a#button1 button:hover{
 
 #leaf{
   top: 0;
+  z-index: 99;
 }
 
 /* .parallax img{
@@ -127,7 +129,7 @@ a#button1 button:hover{
 }
 
 #start{
-    z-index: 100;
+    z-index: 1001;
     position: relative;
     background: #003329;
     padding: 50px 200px;
@@ -297,6 +299,6 @@ a#button1 button:hover{
 
     .cards{
       flex-direction: column;
-      width: 90vw;
+      width: 100vw;
     }
   }
