@@ -1,61 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/planeta.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/planeta.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Agrinho</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <header id="header">
-        <a id="logo" href="index.html">
-        <img src="assets/img/planeta.png" alt="planeta"/></a>
-        <nav id="nav">
-          <button
-            aria-label="Abrir Menu"
-            id="btn-mobile"
-            aria-haspopup="true"
-            aria-controls="menu"
-            aria-expanded="false"
-          >
-            <span id="hamburger"></span>
-          </button>
-          <ul id="menu" role="menu">
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-          </ul>
-        </nav>
-      </header>
+      <a id="logo" href="index.html">
+        <img src="assets/img/planeta.png" alt="planeta"
+      /></a>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <main>
-    <section class="parallax">
-        <img src="assets/img/hill1.png" id="hill1">
-        <img src="assets/img/hill2.png" id="hill2">
-        <img src="assets/img/hill3.png" id="hill3">
-        <img src="assets/img/hill4.png" id="hill4">
-        <img src="assets/img/hill5.png" id="hill5">
-        <img src="assets/img/tree.png" id="tree">
-        <h1 id="text">Transformando o mundo <br><span>através da empatia</span></h1>
+    <main>
+      <section class="parallax">
+        <img src="assets/img/hill1.png" id="hill1" />
+        <img src="assets/img/hill2.png" id="hill2" />
+        <img src="assets/img/hill3.png" id="hill3" />
+        <img src="assets/img/hill4.png" id="hill4" />
+        <img src="assets/img/hill5.png" id="hill5" />
+        <img src="assets/img/tree.png" id="tree" />
+        <h1 id="text">
+          Transformando o mundo <br /><span>através da empatia</span>
+        </h1>
         <a href="#start" id="button1"><button>Get Started</button></a>
-        <img src="assets/img/leaf.png" id="leaf">
-        <img src="assets/img/plant.png" id="plant">
-    </section>
+        <img src="assets/img/leaf.png" id="leaf" />
+        <img src="assets/img/plant.png" id="plant" />
+      </section>
 
-    <section id="start">
-        <h2>Vamos fazer a <span>diferença</span>?</h2>
-        <p>Você já parou para pensar em como suas ações podem fazer a diferença no mundo? Cada escolha que você faz, por menor que seja, pode ter um impacto poderoso e duradouro. Na nossa plataforma, acreditamos no poder transformador das ações individuais e queremos inspirar você a fazer parte dessa mudança!</p>
-    </section>
+      <section id="start">
+        <h2>Vamos fazer a <span>diferença</span>!</h2>
+        <p>
+          Você já parou para pensar em como suas ações podem fazer a diferença
+          no mundo? Cada escolha que você faz, por menor que seja, pode ter um
+          impacto poderoso e duradouro. Na nossa plataforma, acreditamos no
+          poder transformador das ações individuais e queremos inspirar você a
+          fazer parte dessa mudança!
+        </p>
+      </section>
 
+      <section id="problemas">
+        <h1>Quais são os problemas que devem ser enfrentados?</h1>
+        <div class="cards">
+          <div class="card">
+            <h1>Mudanças climaticas</h1>
+            <p>O aquecimento global e as mudanças climáticas
+              representam uma das maiores ameaças para o nosso planeta.</p>
+            <a href="#" class="botao2"><button>Saiba mais</button></a>
 
+          </div>
 
-  </main>
+          <div class="card">
+            <h1>Desigualdade Social</h1>
+            <p>A desigualdade econômica e social é um problema persistente em muitos países.</p>
+            <a href="#" class="botao2"><button>Saiba mais</button></a>
+          </div>
 
+          <div class="card">
+            <h1>Acesso à educação e saúde</h1>
+            <p>Milhões de pessoas em todo o mundo ainda não têm acesso adequado à educação de qualidade e aos serviços de saúde básicos.</p>
+            <a href="#" class="botao2"><button>Saiba mais</button></a>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script src="assets/script.js"></script>
-</body>
+  </body>
 </html>
