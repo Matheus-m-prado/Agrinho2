@@ -153,8 +153,15 @@ a#button1 button:hover{
 
 
 #problemas{
-  margin-top: 3vh;
+  margin-top: 5vh;
   text-align: center;
+  color: #252525;
+}
+#problemas h1.txt{
+  font-size: 2rem;
+}
+#problemas span{
+  text-decoration: underline #12d369;
 }
 
 .cards{
@@ -163,7 +170,7 @@ a#button1 button:hover{
   flex-direction: row;
 }
 .card{
-  background-color: #fff;
+  background-color: #f0fcef;
   text-align: center;
   margin: 3vh;
   padding: 20px;
@@ -180,6 +187,12 @@ a#button1 button:hover{
   border-radius: 10px;
   background-color: #12d369;
   font-weight: 500;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+.botao2 button:hover{
+  background-color: #0ea552;
+  font-size: 11pt;
 }
 
 
