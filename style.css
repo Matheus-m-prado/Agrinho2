@@ -10,6 +10,7 @@ body{
     min-height: 100vh;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    height: 10000vh;
 }
 
 #logo {
@@ -81,7 +82,7 @@ body{
 }
 
 a#button1{
-  z-index: 10000;
+  z-index: 1;
   margin-bottom: -100px;
   cursor: pointer;
   text-decoration: none;
