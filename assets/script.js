@@ -10,11 +10,11 @@ window.addEventListener('scroll', () => {
     let value = window.scrollY;
 
     text.style.marginTop = value * 1 + 'px';
-    leaf.style.top = value * -0.5 + 'px';
-    leaf.style.left = value * .5 + 'px';
-    hill5.style.left = value * .6 + 'px';
-    hill4.style.left = value * -.2 + 'px';
-    tree.style.left = value * .4 + 'px';
+    leaf.style.top = value * -1.5 + 'px';
+    leaf.style.left = value * 1.5 + 'px';
+    hill5.style.left = value * 1.6 + 'px';
+    hill4.style.left = value * -1.2 + 'px';
+    tree.style.left = value * 1.4 + 'px';
     button1.style.marginTop = value * 1 + 'px';
 });
 
