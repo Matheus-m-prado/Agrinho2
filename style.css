@@ -1,17 +1,59 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body{
-    background: #f9f9f9;
-    min-height: 100vh;
-    overflow-x: hidden;
-    font-family: 'Poppins', sans-serif;
-    background-color: #e9e9e9;
+  background: #f9f9f9;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  background-color: #e9e9e9;
 }
+
+
+
+/* BOTÕES */
+a#button1{
+  z-index: 101;
+  margin-bottom: -100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+a#button1 button{
+  padding: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #15f87b;
+  font-size: 1em;
+  font-weight: 600;
+  color: #303030;
+  cursor: pointer;
+  box-shadow: 2px 2px 30px #000;
+  transition: all .5s ease;
+}
+a#button1 button:hover{
+  background-color: #12d369;
+  box-shadow: none;
+}
+.botao2 button{
+  padding: 10px;
+  margin-top: 2vh;
+  border: none;
+  border-radius: 10px;
+  background-color: #12d369;
+  font-weight: 500;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+.botao2 button:hover{
+  background-color: #0ea552;
+  font-size: 11pt;
+}
+/* FINAL */
+
 
 #logo {
     font-size: 1.5rem;
@@ -77,46 +119,19 @@ body{
     text-shadow: 2px 2px 4px rgba(0,0,0,.2);
     transition: all .1s ease;
     z-index: 100;
-}
+  }
 #text span{
-    color: #15f87b;
+  color: #15f87b;
 }
 
-a#button1{
-  z-index: 101;
-  margin-bottom: -100px;
-  cursor: pointer;
-  text-decoration: none;
-}
-a#button1 button{
-  padding: 20px;
-  border-radius: 20px;
-  border: none;
-  background-color: #15f87b;
-  font-size: 1em;
-  font-weight: 600;
-  color: #303030;
-  cursor: pointer;
-  box-shadow: 2px 2px 30px #000;
-  transition: all .5s ease;
-}
-a#button1 button:hover{
-  background-color: #12d369;
-  box-shadow: none;
-}
+
+
+
 
 #leaf{
   top: 0;
   z-index: 99;
 }
-
-/* .parallax img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    pointer-events: none; 
-} */
 
 #plant{
   z-index: 100;
@@ -182,20 +197,6 @@ a#button1 button:hover{
   margin-bottom: 3vh;
 }
 
-.botao2 button{
-  padding: 10px;
-  margin-top: 2vh;
-  border: none;
-  border-radius: 10px;
-  background-color: #12d369;
-  font-weight: 500;
-  transition: all .5s ease;
-  cursor: pointer;
-}
-.botao2 button:hover{
-  background-color: #0ea552;
-  font-size: 11pt;
-}
 
 
 
