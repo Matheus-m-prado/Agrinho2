@@ -6,7 +6,6 @@ let hill4 = document.getElementById('hill4');
 let hill5 = document.getElementById('hill5');
 let button1 = document.getElementById('button1');
 
-let parallax = document.getElementsByClassName('parallax');
 
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
