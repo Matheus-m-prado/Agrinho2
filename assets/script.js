@@ -22,7 +22,7 @@ window.addEventListener('scroll', () => {
 
 
 
-
+// bug da página não scrollar
 function loading() {
   window.scrollTo(0, 0);
 }
