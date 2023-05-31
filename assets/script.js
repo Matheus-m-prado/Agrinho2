@@ -44,3 +44,15 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
+
+
+
+
+
+
+// SCROLL
+window.sr = ScrollReveal({ reset: true });
+sr.reveal(".scroll", {duration: 1800, distance: '70px', origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
+sr.reveal(".scroll2", {duration: 1800, distance: '70px', origin: 'top', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
+sr.reveal(".scroll3", {duration: 1800, distance: '70px', origin: 'left', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
+sr.reveal(".scroll4", {duration: 1800, distance: '70px', origin: 'right', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
