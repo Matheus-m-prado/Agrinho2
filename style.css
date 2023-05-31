@@ -158,10 +158,14 @@ body {
   height: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 10px;
+  transition: all .5s ease;
+}
+.imgGaleria:hover{
+  scale: 1.1;
 }
 .itemGaleria{
   overflow: hidden;
+  border-radius: 10px;
 }
 .item01{
   grid-column: 1 / span 2;
