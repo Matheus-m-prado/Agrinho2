@@ -10,7 +10,7 @@ let button1 = document.getElementById('button1');
 window.addEventListener('scroll', () => {
     let scroll = window.scrollY;
 
-    text.style.marginTop = scroll * 1 + 'px';
+    text.style.marginTop = scroll * .8 + 'px';
     leaf.style.left = scroll * 1.5 + 'px';
     hill5.style.left = scroll * 1.6 + 'px';
     hill4.style.left = scroll * -1.2 + 'px';
