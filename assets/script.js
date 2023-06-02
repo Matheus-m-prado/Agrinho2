@@ -12,7 +12,7 @@ window.addEventListener('scroll', () => {
 
     text.style.marginTop = scroll * .8 + 'px';
     leaf.style.left = scroll * 1.5 + 'px';
-    hill5.style.left = scroll * 1.6 + 'px';
+    hill5.style.left = scroll * .6 + 'px';
     hill4.style.left = scroll * -1.2 + 'px';
     tree.style.left = scroll * 1.4 + 'px';
     button1.style.marginTop = scroll * .8 + 'px';
@@ -71,6 +71,9 @@ menuf4.addEventListener('click', function(){
 
 
 
+
+
+
 // SCROLL
 window.sr = ScrollReveal({ reset: true });
 sr.reveal(".scroll", {duration: 1800, distance: '70px', origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
@@ -78,6 +81,11 @@ sr.reveal(".scroll2", {duration: 1800, distance: '70px', origin: 'top', easing: 
 sr.reveal(".scroll3", {duration: 1800, distance: '70px', origin: 'left', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
 sr.reveal(".scroll4", {duration: 1800, distance: '70px', origin: 'right', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
 
+
+window.addEventListener('scroll', function(){
+  var menu = document.querySelector('#header');
+  menu.classList.toggle('sticky', window.scrollY > 0);
+})
 
 
 
