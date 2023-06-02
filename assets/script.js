@@ -20,10 +20,6 @@ window.addEventListener('scroll', () => {
 
 
 
-// bug da página não scrollar
-// function loading() {
-//   window.scrollTo(0, 0);
-// }
 
 
 
@@ -85,7 +81,7 @@ sr.reveal(".scroll4", {duration: 1800, distance: '70px', origin: 'right', easing
 window.addEventListener('scroll', function(){
   var menu = document.querySelector('#header');
   menu.classList.toggle('sticky', window.scrollY > 0);
-})
+});
 
 
 

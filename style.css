@@ -33,7 +33,7 @@ body {
   transition: all .5s ease;
 }
 #header.sticky{
-  background: transparent;
+  background: #9ae9dd;
   height:60px;
 }
 
