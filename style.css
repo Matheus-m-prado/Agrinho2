@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* overflow-x: hidden; */
   scroll-behavior: smooth;
 }
 
@@ -161,6 +160,7 @@ body {
   grid-template-rows: repeat(8, 5vw);
   gap: .5rem;
   margin: 50px;
+  overflow-x: hidden;
 }
 
 .imgGaleria{
@@ -211,6 +211,7 @@ body {
   padding: 30px;
   font-family: 'Poppins', sans-serif;
   color: #252525;
+  overflow-x: hidden;
 }
 #info h1{
   font-size: 3rem;
