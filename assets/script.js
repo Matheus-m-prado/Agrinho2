@@ -49,7 +49,7 @@ btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
 
 
-// menu fecha ao ser clicado
+// Menu fecha ao ser clicado
 const menuf1 = document.querySelector('.btn1');
 const menuf2 = document.querySelector('.btn2');
 const menuf3 = document.querySelector('.btn3');
