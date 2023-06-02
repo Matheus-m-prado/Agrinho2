@@ -28,6 +28,7 @@ window.addEventListener('scroll', () => {
 
 
 const btnMobile = document.getElementById("btn-mobile");
+const menu = document.getElementsByClassName("menu");
 
 function toggleMenu(event) {
   if (event.type === "touchstart") event.preventDefault();
@@ -42,9 +43,29 @@ function toggleMenu(event) {
   }
 }
 
+
+
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart", toggleMenu);
 
+
+// menu fecha ao ser clicado
+const menuf1 = document.querySelector('.btn1');
+const menuf2 = document.querySelector('.btn2');
+const menuf3 = document.querySelector('.btn3');
+const menuf4 = document.querySelector('.btn4');
+menuf1.addEventListener('click', function(){
+  nav.classList.remove('active');
+});
+menuf2.addEventListener('click', function(){
+  nav.classList.remove('active');
+});
+menuf3.addEventListener('click', function(){
+  nav.classList.remove('active');
+});
+menuf4.addEventListener('click', function(){
+  nav.classList.remove('active');
+});
 
 
 
