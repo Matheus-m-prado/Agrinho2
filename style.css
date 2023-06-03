@@ -286,21 +286,19 @@ a#button1 button:hover {
   text-align: center;
   margin: 80px 20vw;
   border-radius: 10px;
+  padding: 20px;
 }
 #solucao h1{
   font-size: 1.7rem;
   margin-bottom: 2vh;
 }
-#solucao .energia{
+#solucao .container{
   background-color: #f9f9f9;
   border-radius: 20px;
   padding: 20px;
-  transition: all .5s ease;
+  margin: 2vh 0;
 }
-#solucao .energia:hover{
-  cursor: pointer;
-}
-#solucao .energia .espec{
+#solucao .espec{
   margin-bottom: 30px;
 }
 /* FINAL */
