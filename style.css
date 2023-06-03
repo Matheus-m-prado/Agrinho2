@@ -284,12 +284,12 @@ a#button1 button:hover {
 
 #solucao{
   text-align: center;
-  margin: 20px 20vw;
+  margin: 80px 20vw;
   border-radius: 10px;
 }
-#solucao h1.title{
+#solucao h1{
   font-size: 1.7rem;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
 }
 #solucao .energia{
   background-color: #f9f9f9;
