@@ -280,6 +280,29 @@ a#button1 button:hover {
   background-color: #0ea552;
   font-size: 11pt;
 }
+
+
+#solucao{
+  text-align: center;
+  margin: 20px 20vw;
+  border-radius: 10px;
+}
+#solucao h1.title{
+  font-size: 1.7rem;
+  margin-bottom: 5vh;
+}
+#solucao .energia{
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  padding: 20px;
+  transition: all .5s ease;
+}
+#solucao .energia:hover{
+  cursor: pointer;
+}
+#solucao .energia .espec{
+  margin-bottom: 30px;
+}
 /* FINAL */
 
 
