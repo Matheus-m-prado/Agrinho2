@@ -21,7 +21,7 @@ body {
 
 #header {
   box-sizing: border-box;
-  height: 70px;
+  height: 80px;
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -34,7 +34,7 @@ body {
 }
 #header.sticky{
   background: #9ae9dd;
-  height:60px;
+  height:70px;
 }
 
 #logo img {
@@ -313,6 +313,9 @@ a#button1 button:hover {
 #solucao h1{
   font-size: 1.7rem;
   margin-bottom: 2vh;
+}
+#solucao .title span{
+  text-decoration: underline #12d369;
 }
 #solucao .container{
   background-color: #f9f9f9;
