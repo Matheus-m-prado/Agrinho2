@@ -449,6 +449,11 @@ a#button1 button:hover {
     font-size: 1.15rem;
   }
 
+  #info .comida{
+    padding: 0;
+    margin-top: 3vh;
+  }
+
   #solucao .container{
     width: 90vw;
   }
