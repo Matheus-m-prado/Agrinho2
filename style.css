@@ -216,7 +216,7 @@ body {
   padding: 30px;
   font-family: 'Poppins', sans-serif;
   color: #252525;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #info h1{
   font-size: 3rem;
@@ -241,6 +241,19 @@ body {
 }
 #info .infos .lixo{
   margin-left: 5vw;
+}
+
+#info .comida{
+  margin-top: 10vh;
+  padding: 0 20vw;
+}
+#info .comida h2{
+  font-size: 3rem;
+}
+#info .comida p{
+  font-size: 1rem;
+  color: #282828;
+  font-weight: 400;
 }
 /* BOTÕES */
 a#button1 {
