@@ -281,12 +281,34 @@ a#button1 button:hover {
   font-size: 11pt;
 }
 
+.botao3 button {
+  padding: 15px;
+  width: 20vw;
+  margin-top: 4vh;
+  border: none;
+  border-radius: 20px;
+  background-color: #12d369;
+  font-weight: 500;
+  font-size: 12pt;
+  transition: all .5s ease;
+  cursor: pointer;
+}
+.botao3 button:hover {
+  background-color: #0ea552;
+  font-size: 11pt;
+}
+
 
 #solucao{
+  display: flex;
   text-align: center;
-  margin: 80px 20vw;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px 0;
   border-radius: 10px;
   padding: 20px;
+  overflow-x: hidden;
 }
 #solucao h1{
   font-size: 1.7rem;
@@ -294,8 +316,9 @@ a#button1 button:hover {
 }
 #solucao .container{
   background-color: #f9f9f9;
+  width: 60vw;
   border-radius: 20px;
-  padding: 20px;
+  padding: 25px 50px;
   margin: 2vh 0;
 }
 #solucao .espec{
@@ -408,6 +431,13 @@ a#button1 button:hover {
   }
   #info .infos p{
     font-size: 1.15rem;
+  }
+
+  #solucao .container{
+    width: 90vw;
+  }
+  .botao3 button{
+    width: 50vw;
   }
 }
 
