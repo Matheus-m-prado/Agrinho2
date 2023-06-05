@@ -361,6 +361,7 @@ footer a{
 }
 footer .top{
   background-color: #12d369;
+  color: #fff;
   padding: 20px;
   border-radius: 10px;
   transition: all .5s ease;
@@ -514,7 +515,7 @@ footer img{
     flex-direction: column-reverse;
   }
   footer .eu{
-    margin: 10vw 0;
+    margin: 10vw 0 0 0;
   }
   footer .eu p{
     font-size: 1.6rem;
