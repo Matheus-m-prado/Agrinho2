@@ -385,6 +385,10 @@ footer .contato{
   margin-top: 10px;
   font-size: 1.2rem;
 }
+footer img{
+  width: 8vw;
+  margin-left: -4vw;
+}
 /* FINAL */
 
 
@@ -504,6 +508,19 @@ footer .contato{
   }
   .botao3 button{
     width: 50vw;
+  }
+
+  footer{
+    flex-direction: column-reverse;
+  }
+  footer .eu{
+    margin: 10vw 0;
+  }
+  footer .eu p{
+    font-size: 1.6rem;
+  }
+  footer img{
+    display: none;
   }
 }
 

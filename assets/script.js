@@ -11,10 +11,10 @@ window.addEventListener('scroll', () => {
     let scroll = window.scrollY;
 
     text.style.marginTop = scroll * .8 + 'px';
-    leaf.style.left = scroll * 1.5 + 'px';
-    hill5.style.left = scroll * .6 + 'px';
-    hill4.style.left = scroll * -1.2 + 'px';
-    tree.style.left = scroll * 1.4 + 'px';
+    leaf.style.left = scroll * 1.2 + 'px';
+    hill5.style.left = scroll * .5 + 'px';
+    hill4.style.left = scroll * -1 + 'px';
+    tree.style.left = scroll * 1.2 + 'px';
     button1.style.marginTop = scroll * .8 + 'px';
 });
 
@@ -49,7 +49,6 @@ btnMobile.addEventListener("touchstart", toggleMenu);
 const menuf1 = document.querySelector('.btn1');
 const menuf2 = document.querySelector('.btn2');
 const menuf3 = document.querySelector('.btn3');
-const menuf4 = document.querySelector('.btn4');
 menuf1.addEventListener('click', function(){
   nav.classList.remove('active');
 });
@@ -57,9 +56,6 @@ menuf2.addEventListener('click', function(){
   nav.classList.remove('active');
 });
 menuf3.addEventListener('click', function(){
-  nav.classList.remove('active');
-});
-menuf4.addEventListener('click', function(){
   nav.classList.remove('active');
 });
 
