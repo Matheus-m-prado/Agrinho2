@@ -73,7 +73,7 @@ sr.reveal(".scroll2", {duration: 1800, distance: '70px', origin: 'top', easing: 
 sr.reveal(".scroll3", {duration: 1800, distance: '70px', origin: 'left', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
 sr.reveal(".scroll4", {duration: 1800, distance: '70px', origin: 'right', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
 
-
+// Menu que muda ao scrollar
 window.addEventListener('scroll', function(){
   var menu = document.querySelector('#header');
   menu.classList.toggle('sticky', window.scrollY > 0);
