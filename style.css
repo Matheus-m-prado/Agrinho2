@@ -363,7 +363,7 @@ footer{
   justify-content: space-evenly;
   align-items: center;
   padding: 40px 0;
-  background-image: linear-gradient(to bottom, #282828, #151515);
+  background-image: linear-gradient(to bottom, #282828, #171717);
 }
 footer a{
   text-decoration: none;
