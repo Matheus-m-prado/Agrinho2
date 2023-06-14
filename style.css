@@ -51,7 +51,7 @@ body {
 
 #menu a {
   display: block;
-  padding: 0.5rem;
+  padding: .8rem;
   font-weight: bold;
   text-decoration: none;
   color: #252525;
@@ -315,6 +315,14 @@ a#button1 button:hover {
 }
 
 
+#menu li a.btn4{
+  background-color: #ffa600;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+}
+
+
 #solucao{
   display: flex;
   text-align: center;
@@ -410,6 +418,9 @@ footer img{
     height: 0px;
     visibility: hidden;
     overflow-y: hidden;
+  }
+  #menu li a.btn4{
+    margin-top: 5vh;
   }
   #nav.active #menu {
     margin-top: 0px;
@@ -528,6 +539,7 @@ footer img{
   footer img{
     display: none;
   }
+
 }
 
 
