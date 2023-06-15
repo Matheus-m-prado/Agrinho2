@@ -86,3 +86,12 @@ window.addEventListener('scroll', function(){
 
 
 
+
+document.addEventListener('DOMContentLoaded', () => {
+  new TypeIt(".animated", {
+    speed: 150,
+    loop: true,
+  })
+  .type('empatia', {delay: 900}).delete(7).type("solidaridade")
+  .go()
+})
