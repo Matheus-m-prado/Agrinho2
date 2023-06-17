@@ -39,7 +39,7 @@ body {
 }
 
 #logo img {
-  max-width: 5vw;
+  max-width: 4vw;
   margin-top: 8px;
 }
 
@@ -352,6 +352,9 @@ a#button1 button:hover {
 #solucao .espec{
   margin-bottom: 30px;
 }
+#solucao .espec h1{
+  font-size: 2rem;
+}
 
 
 
@@ -406,8 +409,21 @@ footer img{
 }
 /* FINAL */
 
-
-
+@media (max-width: 1400px){
+  #logo img{
+    max-width: 7vw;
+  }
+}
+@media (max-width: 1200px){
+  #logo img {
+    max-width: 8vw;
+  }
+}
+@media (max-width: 850px){
+  #logo img{
+    max-width: 12vw;
+  }
+}
 @media (max-width: 600px) {
   #menu {
     display: block;
