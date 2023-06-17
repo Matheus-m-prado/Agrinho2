@@ -92,6 +92,6 @@ document.addEventListener('DOMContentLoaded', () => {
     speed: 150,
     loop: true,
   })
-  .type('empatia', {delay: 1500}).delete(7).type("solidaridade", {delay: 1500})
+  .type('empatia', {delay: 1500}).delete(7).type("solidariedade", {delay: 1500})
   .go()
 })
