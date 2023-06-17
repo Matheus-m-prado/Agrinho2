@@ -104,7 +104,6 @@ body {
   bottom: 0;
   width: 100%;
 }
-
 #start {
   z-index: 1001;
   position: relative;
@@ -578,6 +577,7 @@ footer img{
   footer i.top{
     font-size: 1rem;
   }
+
 
 }
 
