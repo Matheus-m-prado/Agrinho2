@@ -239,7 +239,7 @@ body {
 }
 #info .infos p{
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #282828e8;
 }
 #info .infos .lixo{
@@ -255,7 +255,7 @@ body {
   font-size: 3rem;
 }
 #info .comida p{
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #282828;
   font-weight: 400;
 }
@@ -406,6 +406,19 @@ footer .contato{
 footer img{
   width: 8vw;
   margin-left: -4vw;
+}
+
+
+.entrada{
+  display: none;
+  position: absolute;
+  margin-left: 58.5vw;
+  margin-bottom: 12vh;
+  color: white;
+  font-size: .8rem;
+  background-color: red;
+  padding: 10px;
+  border-radius: 20px;
 }
 /* FINAL */
 

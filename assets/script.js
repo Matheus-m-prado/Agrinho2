@@ -95,3 +95,4 @@ document.addEventListener('DOMContentLoaded', () => {
   .type('empatia', {delay: 1500}).delete(7).type("solidariedade", {delay: 1500})
   .go()
 })
+
