@@ -131,6 +131,28 @@ body {
   font-weight: 300;
 }
 
+#empatia{
+  padding: 20px;
+  text-align: center;
+  margin: 5vh 20vw;
+  overflow-x: hidden;
+}
+#empatia h1{
+  font-size: 2rem;
+}
+#empatia h2{
+  margin: 3vh 0;
+  font-size: 1.1rem;
+  color: #303030;
+}
+#empatia a{
+  color: #000;
+  cursor: pointer;
+}
+#empatia span{
+  text-decoration: underline #12af59;
+}
+
 #problemas {
   margin-top: 5vh;
   text-align: center;
@@ -582,7 +604,12 @@ footer img{
     font-size: 1rem;
   }
 
-
+  #empatia{
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    overflow-x: hidden;
+  }
 }
 
 
