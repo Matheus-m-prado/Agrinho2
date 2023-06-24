@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       rel="shortcut icon"
@@ -47,7 +46,7 @@
         <img src="assets/img/hill5.png" id="hill5" />
         <img src="assets/img/tree.png" id="tree" />
         <h1 id="text">
-          Transformando o mundo <br /><span>através da <span class="animated"></span></span>
+          Transformando o mundo <br /><span>através da empatia</span>
         </h1>
         <a href="#start" id="button1"><button>Vamos lá!</button></a>
         <img src="assets/img/leaf.png" id="leaf" />
@@ -74,22 +73,21 @@
           <span>enfrentados</span>?
         </h1>
         <div class="cards">
-          <div class="card scroll3">
+          <div class="card" data-anime="left">
             <h1>Mudanças climáticas</h1>
             <p>
               O aquecimento global e as mudanças climáticas representam uma das
-              maiores ameaças para o nosso planeta.
+              maiores ameaças para o nosso planeta. Como, escassez de água, aumento do nível do mar, etc...
             </p>
             <a href="https://climainfo.org.br" class="botao2"
               ><button>Saiba mais</button></a
             >
           </div>
 
-          <div class="card scroll4">
+          <div class="card" data-anime="right">
             <h1>Desigualdade Social</h1>
             <p>
-              A desigualdade econômica e social é um problema persistente em
-              muitos países.
+              16 Milhões de brasileiros ainda permanecem na situação de pobreza extrema. Regiões como norte e nordeste são as mais afetas por conta do baixo IDH (índice de desenvolvimento humano).
             </p>
             <a
               href="https://www.ibge.gov.br/estatisticas/multidominio/condicoes-de-vida-desigualdade-e-pobreza.html"
@@ -98,24 +96,22 @@
             >
           </div>
 
-          <div class="card scroll3">
+          <div class="card" data-anime="left">
             <h1>Acesso à educação</h1>
             <p>
-              Milhões de pessoas em todo o mundo ainda não têm acesso adequado à
-              educação de qualidade.
+              São aproximadamente 9,6 milhões de pessoas no Brasil que não frequentam escolas. 5,6% da população (com 15 anos ou mais) não sabem ler ou escrever.
             </p>
-            <a href="https://todospelaeducacao.org.br" class="botao2"
+            <a href="https://agenciabrasil.ebc.com.br/educacao/noticia/2023-06/ibge-revela-desigualdade-no-acesso-educacao-e-queda-no-analfabetismo#:~:text=São%209%2C6%20milhões%20de,nos%20recortes%20regionais%20e%20raciais." class="botao2"
               ><button>Saiba mais</button></a
             >
           </div>
 
-          <div class="card scroll4">
+          <div class="card" data-anime="right">
             <h1>Acesso à saúde</h1>
             <p>
-              Milhões de pessoas no mundo todo, ainda não tem acesso à saúde
-              básica de qualidade.
+              Levantamento realizado pelo Estudos para Políticas de Saúde (IEPS), aponta que aproximadamente 34% da população brasileira não tem acesso ao sistema de saúde básica.
             </p>
-            <a href="https://www.conass.org.br" class="botao2"
+            <a href="https://www.cnnbrasil.com.br/saude/ieps-aponta-que-34-da-populacao-nao-tem-acesso-a-atencao-basica-de-saude/" class="botao2"
               ><button>Saiba mais</button></a
             >
           </div>
@@ -123,7 +119,7 @@
       </section>
 
       <section id="galeria">
-        <figure class="itemGaleria item01 scroll3">
+        <figure class="itemGaleria item01" data-anime="left">
           <a
             href="https://www.biologianet.com/ecologia/desmatamento.htm#:~:text=As%20principais%20causas%20de%20desmatamento,em%20todo%20mundo%20há%20séculos."
             ><img
@@ -133,7 +129,7 @@
           /></a>
         </figure>
 
-        <figure class="itemGaleria item04 scroll2">
+        <figure class="itemGaleria item04" data-anime="top">
           <a href="https://www.conass.org.br"
             ><img
               src="assets/img/saude.jpg"
@@ -142,7 +138,7 @@
           /></a>
         </figure>
 
-        <figure class="itemGaleria item03 scroll4">
+        <figure class="itemGaleria item03" data-anime="right">
           <a
             href="https://www.ibge.gov.br/estatisticas/multidominio/condicoes-de-vida-desigualdade-e-pobreza.html"
             ><img
@@ -152,7 +148,7 @@
           /></a>
         </figure>
 
-        <figure class="itemGaleria item02 scroll2">
+        <figure class="itemGaleria item02" data-anime="top">
           <a href="https://todospelaeducacao.org.br"
             ><img
               src="assets/img/educação.webp"
@@ -161,7 +157,7 @@
           /></a>
         </figure>
 
-        <figure class="itemGaleria item05 scroll">
+        <figure class="itemGaleria item05" data-anime="bottom">
           <a
             href="https://jornal.usp.br/atualidades/situacao-de-imigrantes-no-brasil-se-agrava-durante-pandemia/#:~:text=discriminação%20e%20preconceito%20ao%20imigrante,assim%20existem%20discriminação%20e%20preconceito."
             ><img
@@ -171,7 +167,7 @@
           /></a>
         </figure>
 
-        <figure class="itemGaleria item06 scroll4">
+        <figure class="itemGaleria item06" data-anime="right">
           <a
             href="https://beduka.com/blog/materias/geografia/problemas-ambientais-causados-pelo-lixo/#:~:text=O%20lixo%20pode%20ser%20a,principalmente%20por%20causa%20do%20chorume."
             ><img
@@ -189,7 +185,7 @@
         </h1>
           <div class="container">
           <div class="energia">
-            <div class="espec scroll3">
+            <div class="espec" data-anime="left">
               <h1>Energia renovável</h1>
               <p>
                 As energias renováveis são aquelas obtidas a partir de recursos
@@ -200,15 +196,14 @@
                 não contribuem para a poluição do ar, do solo ou da água.
               </p>
             </div>
-            <div class="ex scroll4">
-              <h2>Mas no que isso interfere?</h2>
-              <li type="1">Redução das emissões de gases do efeito estufa.</li>
-              <li type="1">Preservação dos recursos naturais.</li>
+            <div class="ex" data-anime="right">
+              <h2>Como usar energia renovável no dia dia?</h2>
+              <li type="1">Painéis Solares.</li>
+              <li type="1">Aquecimento solar da água.</li>
               <li type="1">Diversificação da matriz energética.</li>
-              <li type="1">
-                Estímulo à inovação e criação de empregos "verdes".
-              </li>
-              <li type="1">Melhoria da qualidade do ar e da saúde humana.</li>
+              <li type="1">Energia Eólica.</li>
+              <li type="1">Pequenas Hidrelétricas.</li>
+              <li type="1">Redução do consumo de energia.</li>
             </div>
             <a href="https://abeeolica.org.br" class="botao3"
               ><button>Saiba mais</button></a
@@ -218,7 +213,7 @@
 
           <div class="container">
           <div class="biodiversidade">
-            <div class="espec scroll4">
+            <div class="espec" data-anime="right">
               <h1>Biodiversidade</h1>
               <p>
                 A biodiversidade refere-se à variedade de formas de vida
@@ -230,8 +225,8 @@
               </p>
             </div>
 
-            <div class="ex scroll3">
-              <h1>Como "ajudar" a biodiversidade?</h1>
+            <div class="ex" data-anime="left">
+              <h1>Como ajudar a biodiversidade?</h1>
               <li type="1">Educação e concientização</li>
               <li type="1">Apoie áreas protegidas</li>
               <li type="1">Plante árvores</li>
@@ -245,12 +240,12 @@
 
           <div class="container">
           <div class="consumo">
-            <div class="espec scroll4">
+            <div class="espec" data-anime="right">
               <h1>Consumo sustentável</h1>
               <p>O consumo sustentável é uma abordagem que busca equilibrar nossas necessidades e desejos com a capacidade dos recursos naturais de suportá-los. Envolve fazer escolhas conscientes e responsáveis ao adquirir produtos e serviços, levando em consideração seu impacto ambiental, social e econômico ao longo de todo o ciclo de vida.</p>
             </div>
 
-            <div class="ex scroll3">
+            <div class="ex" data-anime="left">
               <h2>Como diminuir o consumo?</h2>
               <li type="1">Reduzir o consumo</li>
               <li type="1">Reutilizar</li>
@@ -264,13 +259,13 @@
 
           <div class="container">
           <div class="reciclagem">
-            <div class="espec scroll3">
+            <div class="espec" data-anime="left">
               <h1>Reciclagem</h1>
               <p>A reciclagem é um processo fundamental para a gestão sustentável dos resíduos e a preservação dos recursos naturais. Consiste em coletar, separar, processar e transformar materiais descartados em novos produtos ou matérias-primas, reduzindo assim a necessidade de extrair recursos naturais e diminuindo a quantidade de resíduos enviados para aterros sanitários.</p>
             </div>
 
-            <div class="ex scroll4">
-              <h1>Mas porquê reciclar?</h1>
+            <div class="ex" data-anime="right">
+              <h1>Mas o porquê reciclar?</h1>
               <li type="1">Redução da extração de recursos naturais</li>
               <li type="1">Economia de energia</li>
               <li type="1">Redução de resíduos em aterros sanitários</li>
@@ -286,15 +281,15 @@
         <h1>Curiosidades</h1>
         <div class="infos">
           <div class="desmatamento">
-            <h2 class="scroll4">680 Mil</h2>
-            <p class="scroll3">
+            <h2 data-anime="right">680 Mil</h2>
+            <p data-anime="left">
               Foram perdidas mais de 680 Mil de árvores por dia, uma média de
               472 a cada minuto, 7 a cada segundo, na floresta Amazônica.
             </p>
           </div>
           <div class="lixo">
-            <h2 class="scroll3">160 Mil</h2>
-            <p class="scroll4">
+            <h2 data-anime="left">160 Mil</h2>
+            <p data-anime="right">
               De acordo com dados do Instituto de Pesquisa Econômica Aplicada
               (Ipea), aproximadamente 160 mil toneladas de resíduos são geradas
               por dia no Brasil.
@@ -302,8 +297,8 @@
           </div>
         </div>
         <div class="comida">
-          <h2 class="scroll2">41 Mil</h2>
-          <p class="scroll">São 41 mil <span>TONELADAS</span> de comida jogadas fora por dia enquanto uma em cada nove pessoas passam fome no país, segundo o WFP (Programa Mundial de Alimentos) no Brasil.</p>
+          <h2 data-anime="top">41 Mil</h2>
+          <p data-anime="bottom">São 41 mil <span>TONELADAS</span> de comida jogadas fora por dia enquanto uma em cada nove pessoas passam fome no país, segundo o WFP (Programa Mundial de Alimentos) no Brasil.</p>
         </div>
       </section>
     </main>
@@ -324,7 +319,6 @@
     </footer>
 
     <script src="assets/script.js"></script>
-    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     
   </body>
 </html>

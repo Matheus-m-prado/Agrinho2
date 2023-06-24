@@ -66,12 +66,6 @@ menuf3.addEventListener('click', function(){
 
 
 
-// SCROLL
-window.sr = ScrollReveal({ reset: true });
-sr.reveal(".scroll", {duration: 1800, distance: '70px', origin: 'bottom', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
-sr.reveal(".scroll2", {duration: 1800, distance: '70px', origin: 'top', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
-sr.reveal(".scroll3", {duration: 1800, distance: '70px', origin: 'left', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
-sr.reveal(".scroll4", {duration: 1800, distance: '70px', origin: 'right', easing: 'cubic-bezier(0.5, 0, 0, 1)', opacity: 0});
 
 // Menu que muda ao scrollar
 window.addEventListener('scroll', function(){
@@ -87,12 +81,42 @@ window.addEventListener('scroll', function(){
 
 
 
-document.addEventListener('DOMContentLoaded', () => {
-  new TypeIt(".animated", {
-    speed: 150,
-    loop: true,
-  })
-  .type('empatia', {delay: 1500}).delete(7).type("solidariedade", {delay: 1500})
-  .go()
-})
+// SCROLL
+const debounce = function(func, wait, immediate) {
+  let timeout;
+  return function(...args) {
+    const context = this;
+    const later = function () {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    const callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+};
+
+const target = document.querySelectorAll('[data-anime]');
+const animationClass = 'animate';
+
+function animeScroll(){
+  const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 3.5);
+  target.forEach(function(element) {
+    if((windowTop) > element.offsetTop){
+      element.classList.add(animationClass);
+    }else{
+      element.classList.remove(animationClass);
+    }
+  });
+}
+
+animeScroll();
+
+if(target.length){
+  window.addEventListener('scroll', debounce(function() {
+    animeScroll();
+    console.log(teste);
+  }, 200));
+}
 
