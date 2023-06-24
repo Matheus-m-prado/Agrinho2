@@ -180,6 +180,7 @@ p, li{
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
+  overflow-x: hidden;
 }
 .card {
   background-color: #f0fcef;
