@@ -464,10 +464,16 @@ footer img{
   #logo img {
     max-width: 8vw;
   }
+  #header.sticky img{
+    width: 7vw;
+  }
 }
 @media (max-width: 850px){
   #logo img{
     max-width: 12vw;
+  }
+  #header.sticky img{
+    width: 9vw;
   }
 }
 @media (max-width: 600px) {
@@ -619,6 +625,11 @@ footer img{
     margin: 0;
     overflow-x: hidden;
   }
+
+  #header.sticky img{
+    width: 20vw;
+  }
+  
 }
 
 
