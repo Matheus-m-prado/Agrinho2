@@ -20,6 +20,9 @@ p, li{
   font-family: 'Archivo Narrow', sans-serif;
   color: #353535;
 }
+section.tudo{
+  overflow-x: hidden;
+}
 
 #logo {
   font-size: 1.5rem;
