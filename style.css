@@ -144,6 +144,9 @@ section.tudo{
   text-align: center;
   margin: 5vh 20vw;
   overflow-x: hidden;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #555555;
 }
 #empatia h1{
   font-size: 2rem;
@@ -194,7 +197,9 @@ section.tudo{
   border-radius: 10px;
 }
 .card h1 {
-  margin-bottom: 3vh;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2vh;
 }
 
 
@@ -626,8 +631,9 @@ footer img{
   #empatia{
     padding: 20px;
     text-align: center;
-    margin: 0;
+    margin: 10px;
     overflow-x: hidden;
+    box-shadow: 1px 1px 10px #555555;
   }
 
   #header.sticky img{
@@ -676,5 +682,10 @@ body::-webkit-scrollbar-thumb {
   background-color: #979797;    /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid #e9e9e9;  /* creates padding around scroll thumb */
+}
+
+
+.ajuste{
+  visibility: hidden;
 }
 
