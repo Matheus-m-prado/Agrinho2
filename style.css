@@ -490,7 +490,7 @@ footer img{
     display: block;
     position: absolute;
     width: 100%;
-    top: 80px;
+    top: 70px;
     right: 0px;
     background: #f8f8f8;
     background-color: rgba(0, 0, 0, 0.05);
@@ -551,7 +551,7 @@ footer img{
   }
 
   #menu {
-    background-image: linear-gradient(to bottom, #b8ece4bb, #b8ece4, #97ece0);
+    background-image: linear-gradient(to bottom, #b8ece4, #b8ece4bb);
   }
   #logo img {
     max-width: 15vw;
