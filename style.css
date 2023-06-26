@@ -61,14 +61,36 @@ section.tudo{
 }
 
 #menu a {
+  position: relative;
   display: block;
   padding: .8rem;
   font-weight: bold;
   text-decoration: none;
   color: #252525;
+  transition: all .5s ease;
+}
+#menu a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 10px;
+  left: 0;
+  background-color: #12af59;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all .5s ease 0s;
+  transition: all .5s ease 0s;
+}
+#menu a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
 
-#btn-mobile {
+
+  #btn-mobile {
   display: none;
 }
 
@@ -143,6 +165,7 @@ section.tudo{
   padding: 20px;
   text-align: center;
   margin: 5vh 20vw;
+  margin-bottom: 10vh;
   overflow-x: hidden;
   background-color: #f7f7f7;
   border-radius: 10px;
@@ -363,7 +386,10 @@ a#button1 button:hover {
   border-radius: 10px;
   text-align: center;
   align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
+
 
 
 #solucao{
