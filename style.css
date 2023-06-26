@@ -72,10 +72,10 @@ section.tudo{
 #menu a:before {
   content: "";
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 3px;
   bottom: 10px;
-  left: 0;
+  left: 10%;
   background-color: #12af59;
   visibility: hidden;
   -webkit-transform: scaleX(0);
