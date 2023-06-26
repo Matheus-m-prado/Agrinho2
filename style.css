@@ -350,6 +350,7 @@ a#button1 button:hover {
 }
 .botao2 button {
   padding: 10px;
+  width: 80%;
   margin-top: 2vh;
   border: none;
   border-radius: 10px;
