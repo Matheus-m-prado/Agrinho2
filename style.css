@@ -426,7 +426,9 @@ a#button1 button:hover {
 }
 
 
-
+#solucao .conclusao{
+  margin: 5vh 0;
+}
 
 
 
