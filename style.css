@@ -436,6 +436,7 @@ footer{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  text-align: center;
   padding: 35px 0;
   background-color: #222222;
   overflow-x: hidden;
@@ -488,14 +489,19 @@ footer #menu2{
   justify-content: space-around;
   margin-left: -50%;
   margin-top: 5vh;
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 10px;
 }
 footer #menu2 li a{
   color: #888888;
   transition: all .5s ease;
+  text-decoration: underline 1px #fff;
 }
 footer #menu2 li a:hover{
   color: #fff;
   text-shadow: 1px 1px 60px #fff;
+  text-decoration: underline 1px #888888;
 }
 .entrada{
   display: none;
