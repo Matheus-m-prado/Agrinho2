@@ -479,6 +479,10 @@ footer .contato{
 footer img{
   width: 8vw;
   margin-left: -4vw;
+  transition: all .5s ease;
+}
+footer img:hover{
+  width: 9vw;
 }
 
 footer #menu2{
@@ -494,14 +498,13 @@ footer #menu2{
   border-radius: 10px;
 }
 footer #menu2 li a{
-  color: #888888;
+  color: #fff;
   transition: all .5s ease;
-  text-decoration: underline 1px #fff;
+  text-decoration: underline 1px #888;
 }
 footer #menu2 li a:hover{
-  color: #fff;
-  text-shadow: 1px 1px 60px #fff;
-  text-decoration: underline 1px #888888;
+  color: #888;
+  text-decoration: underline 1px #fff;
 }
 .entrada{
   display: none;
