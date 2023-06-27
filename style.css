@@ -459,7 +459,7 @@ footer .top:hover{
 footer p{
   color: #fff;
   font-weight: 500;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 }
 footer i{
   font-size: 1.7rem;
@@ -506,6 +506,16 @@ footer #menu2 li a:hover{
   color: #888;
   text-decoration: underline 1px #fff;
 }
+footer .title{
+  color: #fff;
+  margin-bottom: 2vh;
+  font-size: 1.5rem;
+}
+footer .title span{
+  color: #15f87b;
+}
+
+
 .entrada{
   display: none;
   position: absolute;
