@@ -438,6 +438,7 @@ footer{
   align-items: center;
   padding: 35px 0;
   background-color: #222222;
+  overflow-x: hidden;
 }
 footer a{
   text-decoration: none;
@@ -479,7 +480,23 @@ footer img{
   margin-left: -4vw;
 }
 
-
+footer #menu2{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  width: 200%;
+  justify-content: space-around;
+  margin-left: -50%;
+  margin-top: 5vh;
+}
+footer #menu2 li a{
+  color: #888888;
+  transition: all .5s ease;
+}
+footer #menu2 li a:hover{
+  color: #fff;
+  text-shadow: 1px 1px 60px #fff;
+}
 .entrada{
   display: none;
   position: absolute;
@@ -655,6 +672,10 @@ footer img{
   }
   footer i.top{
     font-size: 1rem;
+  }
+  footer #menu2{
+    flex-direction: column;
+    text-align: center;
   }
 
   #empatia{
