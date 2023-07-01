@@ -224,6 +224,9 @@ section.tudo{
   font-weight: bold;
   margin-bottom: 2vh;
 }
+.card .lista{
+  margin-top: 1.5vh;
+}
 
 
 
@@ -637,7 +640,6 @@ footer .title span{
   }
 
   .cards {
-    flex-direction: column;
     width: 100vw;
   }
   .card{
