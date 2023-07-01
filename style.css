@@ -465,7 +465,7 @@ footer p{
   font-size: 1.3rem;
 }
 footer i{
-  font-size: 1.7rem;
+  font-size: 1.4rem;
 }
 footer p a{
   color: #fff;
@@ -475,6 +475,7 @@ footer p a{
 footer .contato{
   display: flex;
   justify-content: space-evenly;
+  margin: 0vh 4vw;
   color: #fff;
   margin-top: 10px;
   font-size: 1.2rem;
