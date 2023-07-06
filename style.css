@@ -330,6 +330,10 @@ section.tudo{
   color: #282828;
   font-weight: 400;
 }
+#info .comida a{
+  color: #282828;
+  text-decoration: underline 1px #282828;
+}
 /* BOTÕES */
 a#button1 {
   z-index: 101;
