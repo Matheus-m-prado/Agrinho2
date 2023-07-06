@@ -430,6 +430,9 @@ a#button1 button:hover {
 #solucao .espec h1{
   font-size: 2rem;
 }
+#solucao .ex span{
+  text-decoration: underline 2px #12af59;
+}
 
 
 #solucao .conclusao{
