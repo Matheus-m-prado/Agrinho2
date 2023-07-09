@@ -443,6 +443,16 @@ a#button1 button:hover {
   margin: 5vh 0;
 }
 
+.ideia{
+  margin: 12vh 15vw 0;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f0fcef;
+}
+.ideia h2{
+  margin-bottom: 2vh;
+}
+
 
 
 footer{
@@ -722,6 +732,12 @@ footer .title span{
     width: 20vw;
   }
   
+  footer #menu2{
+    gap: 10px;
+  }
+  .ideia{
+  margin: 12vh 0 0 0;
+  }
 }
 
 
