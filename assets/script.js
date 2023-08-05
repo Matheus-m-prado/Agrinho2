@@ -1,3 +1,5 @@
+// Efeito parallax do início
+// chamando as imagens
 let text = document.getElementById('text');
 let leaf = document.getElementById('leaf');
 let tree = document.getElementById('tree');
@@ -6,7 +8,7 @@ let hill4 = document.getElementById('hill4');
 let hill5 = document.getElementById('hill5');
 let button1 = document.getElementById('button1');
 
-
+// dando animação as imagens ao scrollar a tela
 window.addEventListener('scroll', () => {
     let scroll = window.scrollY;
 
@@ -82,6 +84,7 @@ window.addEventListener('scroll', function(){
 
 
 // SCROLL
+// otimização do scroll
 const debounce = function(func, wait, immediate) {
   let timeout;
   return function(...args) {
@@ -97,6 +100,7 @@ const debounce = function(func, wait, immediate) {
   };
 };
 
+// comando do scroll
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
 
